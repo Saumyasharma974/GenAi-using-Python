@@ -1,0 +1,53 @@
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.log
+*.tmp
+*.bak
+
+# ---- Virtual Environment ----
+venv/
+env/
+.venv/
+ENV/
+venv.bak/
+
+# ---- Environment / Secrets ----
+.env
+.env.*
+*.env
+
+# ---- Streamlit ----
+.streamlit/
+.streamlit/secrets.toml
+
+# ---- Jupyter / IPython ----
+.ipynb_checkpoints/
+
+# ---- VS Code / Editors ----
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ---- OS / System ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Cache / Build ----
+*.egg-info/
+*.egg
+build/
+dist/
+pip-wheel-metadata/
+.cache/
+.pytest_cache/
+
+# ---- Others ----
+node_modules/
+package-lock.json
